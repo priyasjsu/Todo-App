@@ -2,6 +2,7 @@
     "env": {
         "MONGO_USER": "user_name",
         "MONGO_PASSWORD": "password",
-        "MONGO_DB": "todo-app"
+        "MONGO_DB": "todo-app",
+        "MONGO_CLUSTER": "cluster_name" //eg. cluster0.6jzjn
     }
 }

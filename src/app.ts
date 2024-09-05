@@ -10,8 +10,7 @@ const PORT: string | number = process.env.PORT || 8080;
 app.use(cors());
 app.use(express.json()); // Added middleware to parse JSON requests
 app.use(todoRoutes);
-
-const uri: string = `mongodb+srv://{process.env.USER_NAME}:${process.env.MONGO_PASSWORD}@cluster0.6jzjn.mongodb.net/Cluster0?retryWrites=true&w=majority`;
+const uri: string = `mongodb+srv://{process.env.USER_NAME}:${process.env.MONGO_PASSWORD}@{process.env.MONGO_CLUSTER}.mongodb.net/Cluster0?retryWrites=true&w=majority`;
 
 // mongoose.connect("mongodb+srv://<username>:<password>@cluster0.eyhty.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 // const options = { useNewUrlParser: true, useUnifiedTopology: true };
