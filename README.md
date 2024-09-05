@@ -72,10 +72,10 @@ DELETE /delete-todo/
 
 ### Contributing
 Contributions are welcome! Please follow these steps:
-Fork the repository.
-Create a feature branch (git checkout -b feature-branch).
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Create a new Pull Request.
+- Fork the repository.
+- Create a feature branch (git checkout -b feature-branch).
+- Commit your changes (git commit -am 'Add new feature').
+- Push to the branch (git push origin feature-branch).
+- Create a new Pull Request.
 
    
