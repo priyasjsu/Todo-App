@@ -54,8 +54,6 @@ npm start
    npm install
    npm start
 
-
-
 ### Usage
 Open your browser and navigate to http://localhost:3000 to access the frontend application.
 Use the UI to add, edit, delete, and manage your todo items.
