@@ -61,12 +61,14 @@ The backend API handles CRUD operations and persists data.
 
 ### API Endpoints
 Todos
-GET /todos - Retrieve all todos
-POST /add-todo - Create a new todo
+Retrieve all todos - 
+GET /todos
+Create a new todo - 
+POST /add-todo 
+Update an existing todo - 
 PUT /edit-todo/
-- Update an existing todo
+Delete a todo - 
 DELETE /delete-todo/
-- Delete a todo
 
 ### Contributing
 Contributions are welcome! Please follow these steps:
