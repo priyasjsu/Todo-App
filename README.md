@@ -39,18 +39,21 @@ A simple Todo application built with React, Node.js, and TypeScript. This applic
 
 ### Backend 
 Note: Setup a MongoDb cluster and add the credential to nodemon.json file
+```bash
+git clone https://github.com/your-username/todo-app.git
 cd todo-app
 npm install
 npm start
-
+```
 ### Frontend
 
 1. Clone the repository:
-   git clone https://github.com/your-username/todo-app.git
+```bash
+  
    cd todo-app/client/my-app
    npm install
    npm start
-
+```
 ### Usage
 Open your browser and navigate to http://localhost:3000 to access the frontend application.
 Use the UI to add, edit, delete, and manage your todo items.
